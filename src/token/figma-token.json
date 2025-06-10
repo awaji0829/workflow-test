@@ -1,162 +1,170 @@
 {
   "global": {
     "color": {
-      "background": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "foreground": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "primary": {
-        "value": "#6366f1",
-        "type": "color"
-      },
-      "primary-foreground": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "#f4f4f5",
-        "type": "color"
-      },
-      "secondary-foreground": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "muted": {
-        "value": "#f5f5f5",
-        "type": "color"
-      },
-      "muted-foreground": {
-        "value": "#6b7280",
-        "type": "color"
-      },
-      "destructive": {
-        "value": "#ef4444",
-        "type": "color"
-      },
-      "destructive-foreground": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "border": {
-        "value": "#e5e7eb",
-        "type": "color"
-      },
-      "input": {
-        "value": "#e5e7eb",
-        "type": "color"
-      },
-      "ring": {
-        "value": "#6366f1",
-        "type": "color"
-      }
-    },
-    "radius": {
-      "sm": {
-        "value": "4px",
-        "type": "other"
-      },
-      "md": {
-        "value": "6px",
-        "type": "other"
-      },
-      "lg": {
-        "value": "8px",
-        "type": "other"
-      }
-    },
-    "border": {
-      "width": {
-        "none": {
-          "value": "0px",
-          "type": "border"
+      "core": {
+        "primary": {
+          "value": "#009652",
+          "type": "color"
         },
-        "sm": {
-          "value": "1px",
-          "type": "border"
-        },
-        "md": {
-          "value": "2px",
-          "type": "border"
-        },
-        "lg": {
-          "value": "4px",
-          "type": "border"
+        "secondary": {
+          "value": "#2B2B2B",
+          "type": "color"
         }
       },
-      "style": {
-        "solid": {
-          "value": "solid",
-          "type": "border"
+      "semantic": {
+        "accent": {
+          "value": "#F0FFE0",
+          "type": "color"
         },
-        "dashed": {
-          "value": "dashed",
-          "type": "border"
+        "positive": {
+          "value": "#009652",
+          "type": "color"
         },
-        "dotted": {
-          "value": "dotted",
-          "type": "border"
+        "negative": {
+          "value": "#F44336",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#2B2B2B",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#7A7A7A",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "#A2A5A4",
+          "type": "color"
+        }
+      }
+    },
+    "font": {
+      "heading": {
+        "fontSize": {
+          "value": "18px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "700",
+          "type": "other"
+        },
+        "color": {
+          "value": "#2B2B2B",
+          "type": "other"
+        }
+      },
+      "body": {
+        "fontSize": {
+          "value": "14px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "400",
+          "type": "other"
+        },
+        "color": {
+          "value": "#2B2B2B",
+          "type": "other"
+        }
+      },
+      "caption": {
+        "fontSize": {
+          "value": "12px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "400",
+          "type": "other"
+        },
+        "color": {
+          "value": "#7A7A7A",
+          "type": "other"
+        }
+      },
+      "numericKPI": {
+        "fontSize": {
+          "value": "16px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "600",
+          "type": "other"
+        },
+        "color": {
+          "value": "#2B2B2B",
+          "type": "other"
         }
       }
     },
     "spacing": {
+      "xs": {
+        "value": "4px",
+        "type": "spacing"
+      },
       "sm": {
         "value": "8px",
         "type": "spacing"
       },
       "md": {
-        "value": "16px",
+        "value": "12px",
         "type": "spacing"
       },
       "lg": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "xl": {
         "value": "24px",
         "type": "spacing"
-      },
-      "xl": {
-        "value": "32px",
-        "type": "spacing"
       }
     },
-    "font-size": {
-      "sm": {
-        "value": "14px",
-        "type": "other"
+    "sizing": {
+      "defaultHeight": {
+        "value": "40px",
+        "type": "sizing"
       },
-      "base": {
+      "tableRowHeightMin": {
+        "value": "48px",
+        "type": "sizing"
+      },
+      "tableRowHeightMax": {
+        "value": "56px",
+        "type": "sizing"
+      },
+      "sectionPaddingMin": {
         "value": "16px",
-        "type": "other"
+        "type": "sizing"
       },
-      "lg": {
-        "value": "18px",
-        "type": "other"
-      },
-      "xl": {
-        "value": "20px",
-        "type": "other"
+      "sectionPaddingMax": {
+        "value": "24px",
+        "type": "sizing"
       }
     },
-    "font-weight": {
-      "light": {
-        "value": "300",
-        "type": "other"
-      },
-      "regular": {
-        "value": "400",
+    "radius": {
+      "small": {
+        "value": "4px",
         "type": "other"
       },
       "medium": {
-        "value": "500",
+        "value": "6px",
+        "type": "other"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "1px solid #E5E5E5",
+        "type": "border"
+      }
+    },
+    "elevation": {
+      "elevation0": {
+        "value": "none",
         "type": "other"
       },
-      "semibold": {
-        "value": "600",
-        "type": "other"
-      },
-      "bold": {
-        "value": "700",
+      "elevation1": {
+        "value": "0px 1px 2px rgba(0,0,0,0.05), 0px 1px 3px rgba(0,0,0,0.1)",
         "type": "other"
       }
     }
